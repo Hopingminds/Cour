@@ -79,6 +79,24 @@ function Reviews() {
                         </div>
                     </div>
 
+                    <div className='Reviews-pages'>
+                        <button type='submit' >
+                            <img src="../Icons/leftarrow.svg" alt="left-arrow"></img>
+                        </button>
+                        <button type='submit' >
+                            1
+                        </button>
+                        <button type='submit' >
+                            2
+                        </button>
+                        <button type='submit' >
+                            3
+                        </button>
+                        <button type='submit' >
+                            <img src="../Icons/rightarrow.svg" alt="right-arrow"></img>
+                        </button>
+                    </div>
+
                 </div>
                 {/* <Comment/> */}
 

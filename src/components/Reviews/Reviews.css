@@ -131,9 +131,7 @@
     align-content: center;
     gap: 3px;
 }
-.person-content .h-3 span{
-    /* margin-top: 16px; */
-}
+
 .person-content img{
     margin: 0;
     padding: 0;
@@ -149,4 +147,37 @@
     font-size: 12px;
     font-weight: 400;
     text-align: justify;
+}
+
+
+.Reviews-pages{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.Reviews-pages button{
+    background-color: #E2FFF1;
+    border: 1px solid #EAEAEA;
+    border-radius: 23px;
+    padding: 0 16px;
+    margin: 0 3px;
+    height: 40px;
+    cursor: pointer;
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.Reviews-pages button:focus{
+    background-color: #000;
+    border: 1px solid #EAEAEA;
+    border-radius: 23px;
+    padding: 0 16px;
+    margin: 0 3px;
+    height: 40px;
+    color: #fff;;
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 1.2vw;
 }
