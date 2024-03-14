@@ -1,5 +1,3 @@
-import React, { useEffect } from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from '../Components/Header'
 import Herosection from '../Components/Herosection'
 import Companies from '../Components/Companies'
