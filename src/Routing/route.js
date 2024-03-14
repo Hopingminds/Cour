@@ -1,20 +1,25 @@
-import React, { useEffect } from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Detailcourses from '../components/DetailCourses'
-import MyLearing from '../components/MyLearning/MyLearning';
+import Navbar from '../Components/Header'
+import Herosection from '../Components/Herosection'
+import Companies from '../Components/Companies'
+import Courses_Home from '../Components/Courses_Home'
+import DetailCourses from '../Components/DetailCourses'
+import Home from '../Components/Home'
 
 
-function Router() {
+
+const Router = () => {
     return (
+     
+            <BrowserRouter >
+                <Navbar/>
 
-        <BrowserRouter>
-            <Routes>
-                <Route exact path={'/Detailcourses'} element={<Detailcourses />}></Route>
-                <Route exact path={'/MyLearning'} element={<MyLearing />}></Route>
-            </Routes>
-        </BrowserRouter>
-
+                <Routes>
+                   <Route path='/' element={<Home/>}/>
+                   <Route path='/a' element={<DetailCourses/>}/>
+                </Routes>
+            </BrowserRouter >
+      
     )
 }
 
-export default Router;
+export default Router
