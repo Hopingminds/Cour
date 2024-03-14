@@ -14,12 +14,16 @@ module.exports = {
         },
       },
       fontFamily: {
+
+        'sans': ['Poppins', 'Nunito Sans', 'sans-serif'],
+
         'Gorditas': ['Gorditas'],
         'mons': ['Montserrat', 'sans-serif'],
         'Inter': ['Inter', 'sans-serif'],
         'outfit': ['Outfit'],
         'pop': ['Poppins'],
         'nu': ['Nunito Sans']
+
       },
     },
     screens: {
